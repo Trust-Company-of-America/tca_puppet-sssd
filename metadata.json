@@ -1,16 +1,16 @@
 {
   "name": "walkamongus-sssd",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "author": "Chadwick Banning",
   "summary": "Install and configure the System Security Services Daemon",
   "license": "Apache-2.0",
-  "source": "https://github.com/walkamongus/sssd.git",
-  "project_page": "https://github.com/walkamongus/sssd",
-  "issues_url": "https://github.com/walkamongus/sssd/issues",
+  "source": "https://github.com/Trust-Company-of-America/tca_puppet_sssd.git",
+  "project_page": "hhttps://github.com/Trust-Company-of-America/tca_puppet_sssd",
+  "issues_url": "hhttps://github.com/Trust-Company-of-America/tca_puppet_sssd",
   "dependencies": [
     {
       "name": "puppetlabs/stdlib",
-      "version_requirement": ">= 4.2.0 < 8.0.0"
+      "version_requirement": ">= 4.2.0"
     }
   ],
   "data_provider": "hiera",
@@ -46,7 +46,7 @@
   "requirements": [
     {
       "name": "puppet",
-      "version_requirement": ">= 4.0.0 < 5.0.0"
+      "version_requirement": ">= 4.0.0"
     }
   ]
 }
